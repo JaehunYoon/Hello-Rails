@@ -10,7 +10,11 @@ class ArticlesController < ApplicationController
   end
 
   def show
-    @article = Article.find(params[:id])
+    begin
+      @article = Article.find(params[:id])
+    rescue
+      render 'excepts/404'
+    end
   end
 
   def new
