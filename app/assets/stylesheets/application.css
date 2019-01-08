@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+
+body {
+    font-family: 'Thasadith', sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.contents {
+    text-align: center;
+}

@@ -1,6 +1,8 @@
-<h1>Listing articles</h1>
+<div class="title">
+  <h1>Listing articles</h1>
+</div>
 
-<table>
+<table style="margin: auto;">
   <tr>
     <th>Title</th>
     <th>Text</th>
@@ -17,4 +19,7 @@
   <% end %>
 </table>
 <hr>
-<%= link_to 'New Article', new_article_path %>
+
+<div class="contents">
+  <%= link_to 'New Article', new_article_path %>
+</div>
